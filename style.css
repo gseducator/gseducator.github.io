@@ -68,7 +68,7 @@ footer a:hover {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   font-size: 40px;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
   padding: 70px;
   display: flex;
   justify-content: center;
@@ -114,7 +114,7 @@ h5 {
   font-size: 50px;
   font-weight: 600;
   margin-top: 0;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
 .home h2 {
@@ -139,7 +139,7 @@ h5 {
 }
 
 .home .overlay {
-  background-color: rgba(0,0,0,0.45);
+  background-color: rgba(0, 0, 0, 0.45);
   height: 100vh;
   padding: 70px 0;
   font-family: 'Montserrat', sans-serif;
@@ -152,8 +152,14 @@ h5 {
 }
 
 @keyframes godown {
-  from {bottom: 40px;}
-  to {bottom: 20px;}
+  from {
+    bottom: 40px;
+  }
+
+  to {
+    bottom: 20px;
+  }
+
 }
 
 .overlay i {
@@ -190,4 +196,24 @@ h5 {
 
 .heading-icon {
   font-size: 60px;
+}
+
+.logo-box {
+  margin: 20px;
+}
+
+.courses-ad {
+  width: 90vh;
+}
+
+.logo-main {
+  height: 20vh;
+  margin:
+}
+
+@media only screen and (max-width:600px) {
+  .courses-ad {
+    width: 50vh;
+  }
+
 }
